@@ -65,7 +65,7 @@ components:
     volume: {}
   - name: che-code-injector
     container:
-      image: quay.io/aobuchow/devspaces-code:brew
+      image: quay.io/aobuchow/devspaces-code:brew-2
       command:
         - /entrypoint-init-container.sh
       volumeMounts:
